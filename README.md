@@ -1,0 +1,2 @@
+# MagicCoin
+Magic Coin Game
