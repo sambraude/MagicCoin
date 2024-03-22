@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class OwnerNetworkAnimator : NetworkAnimator
 {
-    protected override bool OnIsServerAuthoritative()
+    protected override bool OnIsServerAuthoritative() // Meant to sync animations -> has bug 
     {
         return false;
     }
